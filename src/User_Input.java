@@ -73,7 +73,6 @@ public class User_Input {
 		double f=0;
 		boolean t = false;
 		
-		
 		PV=FinanceLib.pv(r, n, y, f, t);
 		
 		System.out.println(Math.abs(PV));
